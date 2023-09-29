@@ -29,14 +29,12 @@
     font-weight: bold;
     font-size: 15px;
     background-color: rgb(39, 190, 224);
-    transition: transform 0.15s ease;
+    transition: 1s;
 }
 .buttons button:hover{
     background-color: #44e320
 }
-.buttons button:active{
-    transform: scale(0.3);
-}
+
 .ac-button{
     display: flex;
     position: relative;
@@ -56,14 +54,12 @@
     border-radius: 10px;
     box-shadow: 10px 6px 5px rgba(89, 86, 86, 0.435);
     cursor: pointer;
-    transition: 0.15s ease;
+    transition: 1s;
 }
 .ac-button button:hover{
     background-color: #44e320
 }
-.ac-button button:active{
-    transform: scale(0.3);
-}
+
 .diplay input{
     width: 100%;
     height: 46px;
